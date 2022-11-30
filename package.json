@@ -1,0 +1,22 @@
+{
+  "name": "neoncactus",
+  "displayName": "NeonCactus",
+  "description": "A dark green theme with some spicy neon syntax highlights",
+  "version": "0.0.1",
+  "publisher": "BlazingBlast",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neon Cactus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Neon Cactus-color-theme.json"
+      }
+    ]
+  }
+}
