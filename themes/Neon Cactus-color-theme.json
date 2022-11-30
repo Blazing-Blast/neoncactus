@@ -22,7 +22,7 @@
         "contrastActiveBorder": "#1b770e",
         "dropdown.background": "#133d21",
         "dropdown.listBackground": "#133d21",
-        "editor.background": "#0f2c1a",
+        "editor.background": "#0c2516",
         "editor.findMatchBackground": "#11548a",
         "editor.findMatchHighlightBackground": "#12beb652",
         "editor.foldBackground": "#0c94941e",
@@ -32,7 +32,7 @@
         "editor.selectionHighlightBackground": "#13518b9a",
         "editor.snippetFinalTabstopHighlightBackground": "#144ea5",
         "editor.symbolHighlightBackground": "#144ea5",
-        "editorBracketHighlight.foreground1": "#adadad",
+        "editorBracketHighlight.foreground1": "#73ff00",
         "editorBracketHighlight.foreground2": "#ff00dd",
         "editorBracketHighlight.foreground3": "#aa42ff",
         "editorBracketHighlight.foreground4": "#1dd2ff",
@@ -107,7 +107,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#3e7792"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#1acbe2"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#d13ad6"
 			}
 		},
 		{
@@ -155,19 +155,37 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"punctuation.definition.directive"
+			],
+			"settings": {
+				"foreground": "#07ff07"
+			}
+		},
+		{
+			"name": "operator",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ffd000",
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope":[
+				"punctuation",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#00ff15"
 			}
 		},
 		{
@@ -241,7 +259,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#e7820e"
 			}
 		},
 		{
@@ -250,14 +268,23 @@
 				"entity.name",
 				"support.type",
 				"support.class",
-				"support.other.namespace.use.php",
 				"meta.use.php",
-				"support.other.namespace.php",
 				"markup.changed.git_gutter",
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#e92c13"
+			}
+		},
+		{
+			"name": "namespace",
+			"scope": [
+				"support.other.namespace.php",
+				"support.other.namespace.use.php",
+				"entity.name.namespace"
+			],
+			"settings": {
+				"foreground": "#b700ff"
 			}
 		},
 		{
