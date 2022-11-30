@@ -4,6 +4,19 @@
   "description": "A dark green theme with some spicy neon syntax highlights",
   "version": "0.0.1",
   "publisher": "BlazingBlast",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Blazing-Blast/neoncactus"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "neon",
+    "neon syntax",
+    "cactus",
+    "green",
+    "neon cactus"
+  ],
   "engines": {
     "vscode": "^1.73.0"
   },
